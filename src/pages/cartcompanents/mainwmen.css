@@ -1,0 +1,47 @@
+.imgwmen{
+    width: 20vw;
+}
+.cart_element{
+    float: right;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+}
+/* .cart_element {
+    positive:relative;
+    margin: 20px auto;
+    height:auto;
+    width:200px;
+    margin-top:5%;
+  } */
+  
+  .crtbtnw {
+      border: none;
+      background: #121212;
+      color: #f2f2f2;
+      padding: 1vw 2vw;
+      font-size: 1vw;
+      border-radius:0.2rem;
+      position: relative;
+      box-sizing: border-box;
+      transition: all 500ms ease; 
+    overflow:hidden
+  }
+  
+  .crtbtnw:before {
+      font-family: FontAwesome;
+      content:"\f217";
+      position: absolute;
+      /* top: 11px; */
+      left: -30px;
+      transition: all 200ms ease;
+  }
+  
+  .crtbtnw:hover:before {
+  left: 0.5vw;
+  }
+  
+  .crtbtnw:hover {
+    box-shadow: 2px 4px 3px rgb(135, 131, 131);
+  }
+  
+  

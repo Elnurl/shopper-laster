@@ -1,0 +1,32 @@
+.imgkid{
+    width: 20vw;
+}.crtbtnk {
+    border: none;
+    background: #121212;
+    color: #f2f2f2;
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    border-radius:0.2rem;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+  overflow:hidden
+}
+
+.crtbtnk:before {
+    font-family: FontAwesome;
+    content:"\f217";
+    position: absolute;
+    /* top: 11px; */
+    left: -30px;
+    transition: all 200ms ease;
+}
+
+.crtbtnk:hover:before {
+  left: 0.5vw;
+}
+
+.crtbtnk:hover {
+  box-shadow: 2px 4px 3px rgb(135, 131, 131);
+}
+
